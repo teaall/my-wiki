@@ -21,7 +21,7 @@ Now you'll have to configure Wiki.js to sync with this repo.
 4. Enter the following settings:
 
 - Authentication Type: ssh
-- Repository URI: On your GitHub repository page, in the Code tab, click on the Clone or download green button and copy the URI shown below Clone with SSH.
+- Repository URI: git@github.com:teaall/my-wiki.git
 - Branch: main
 - SSH Private Key Mode: contents
 - B - SSH Private Key Contens: Content of the `local_setup/wiki-user` file
@@ -38,3 +38,5 @@ Now you'll have to configure Wiki.js to sync with this repo.
 8. Wait for the Status panel to update. A new entry for Git should appear in green. If the bar is red, it means you have an error in your configuration. Go back to the Git tab, fix the error and try again.
 
 > :exclamation: The private ssh key has only read rigths, so any changes will only be saved on your local machine
+
+If you feel like branching from this state create your own github repository to securely save your files. ([see also](https://docs.requarks.io/storage/git))
