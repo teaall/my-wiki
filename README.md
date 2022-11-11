@@ -1,6 +1,8 @@
 # Custom Wiki for Software Developers
 
-![logo](logo.png)
+<div align="center">
+  <img src="logo.png" alt="Wiki.js" width="600" />
+</div>
 
 This wiki serves as a personal collection of information of principles, techniques and commands of software development.
 It's based on the open source project [WikiJs](https://github.com/requarks/wiki). and can be locally deployed using docker. :rocket:
